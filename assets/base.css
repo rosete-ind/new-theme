@@ -31,13 +31,6 @@
   --gradient-background: var(--gradient-base-accent-2);
 }
 
-/*Custom property added here */
-.color-custom{
-  --color-foreground: var(--color-base-solid-button-labels);
-  --color-background: var(--color-base-custom);
-  --gradient-background: var(--gradient-base-custom);
-}
-
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
 }

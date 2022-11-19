@@ -23,8 +23,8 @@
       },
       {
         "type": "color",
-        "id": "colors_custom",
-        "label": "t:settings_schema.colors.settings.custom.label"
+        "id": "colors_test",
+        "label": "t:settings_schema.colors.settings.test.label"
       },
       {
         "type": "color",

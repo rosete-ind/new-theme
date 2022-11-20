@@ -88,7 +88,7 @@
         "type": "color",
         "id": "colors_background_3",
         "default": "#F2F2F2",
-        "label": "t:settings_schema.colors.settings.colors_background_3.label"
+        "label": "Background 3"
       },
       {
         "id": "gradient_background_2",

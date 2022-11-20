@@ -86,7 +86,7 @@
       },
       {
         "type": "color",
-        "id": "colors_background_3",
+        "id": "background-3",
         "default": "#F2F2F2",
         "label": "Background 3"
       },

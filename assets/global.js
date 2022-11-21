@@ -1010,3 +1010,15 @@ class StickyHeader extends HTMLElement {
   }
   reset() {
     this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
+  }
+  */
+  closeMenuDisclosure() {
+    this.disclosures = this.disclosures || this.header.querySelectorAll('details-disclosure');
+    this.disclosures.forEach(disclosure => disclosure.close());
+  }
+  closeSearchModal() {
+    this.searchModal = this.searchModal || this.header.querySelector('details-modal');
+    this.searchModal.close(false);
+  }
+}
+ customElements.define('sticky-header', StickyHeader);

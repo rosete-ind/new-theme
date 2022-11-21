@@ -29,6 +29,7 @@
   .custom-announcement-bar>a:hover{
     {% if section.settings.hover %}
     color: {{section.settings.text-color-hover}};
+    background-color: {{section.settings.background-color-hover}};
       {% endif %}
   }
 </style>
@@ -80,6 +81,11 @@
         "id": "text-color",
         "label": "Text Color",
         "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "background-color-hover",
+        "label": "Change Background On Hover"
       },
       {
         "type": "checkbox",

@@ -25,6 +25,12 @@
     color: {{section.settings.text-color}};
     text-decoration: none;
   }
+
+  .custom-announcement-bar>a:hover{
+    {% if section.settings.hover %}
+    color: {{section.settings.text-color-hover}};
+      {% endif %}
+  }
 </style>
 
 {% schema %}
@@ -74,6 +80,11 @@
         "id": "text-color",
         "label": "Text Color",
         "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "text-color-hover",
+        "label": "Text hover"
       },
       {
         "type": "url",

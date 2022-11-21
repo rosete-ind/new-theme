@@ -225,7 +225,7 @@
           "announcement_bar_text": "50% SALE ON YOUR FIRST PURCHASE!",
           "bold-text": true,
           "font-size": 20,
-          "height": 13,
+          "height": 20,
           "background-color": "#f50000",
           "text-color": "#ffffff",
           "hover": true,

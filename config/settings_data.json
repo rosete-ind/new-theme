@@ -225,7 +225,7 @@
           "announcement_bar_text": "Hello World!",
           "bold-text": true,
           "font-size": 18,
-          "height": 10,
+          "height": 2,
           "background-color": "#f50000"
         }
       }

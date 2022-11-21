@@ -131,7 +131,7 @@
         "settings": {
           "color_scheme": "accent-1",
           "transparent_header": false,
-          "content_color": "#ffffff",
+          "content_color": "#1e1111",
           "logo": "{{ shop.brand.logo }}",
           "logo_width": 90,
           "logo_position": "middle-left",

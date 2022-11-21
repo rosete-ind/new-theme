@@ -29,13 +29,13 @@
     width: 50%;
   }
 
-  @mixin center(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .slider{
+.slider {
     position: absolute;
     -webkit-appearance: none;
     appearance: none;
@@ -46,11 +46,10 @@
     margin: 0;
     transition: all .2s;
     @include center;
-    &:hover{
+    &:hover {
       background: rgba(#f2f2f2, .1);
     }
-
-      &::-webkit-slider-thumb {
+    &::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
       width: 6px;
@@ -58,7 +57,7 @@
       background: white;
       cursor: pointer;
   }
-  }
+}
 </style>
 
 {% schema %}

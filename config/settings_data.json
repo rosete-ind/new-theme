@@ -226,7 +226,12 @@
           "bold-text": true,
           "font-size": 18,
           "height": 2,
-          "background-color": "#f50000"
+          "background-color": "#f50000",
+          "text-color": "#ffffff",
+          "hover": true,
+          "background-color-hover": "#000000",
+          "text-color-hover": "#f70000",
+          "announcement-url": ""
         }
       }
     },

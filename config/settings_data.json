@@ -11,7 +11,6 @@
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
-    "colors_background_3": "#1878b9",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -123,6 +122,7 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
+    "colors_background_3": "#1878b9",
     "colors_accent_3": "",
     "gradient_accent_3": "",
     "sections": {
@@ -217,6 +217,12 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "custom-announcement-bar": {
+        "type": "custom-announcement-bar",
+        "settings": {
+          "announcement_bar_text": "Teest"
         }
       }
     },

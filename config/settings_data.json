@@ -229,7 +229,7 @@
           "background-color": "#f50000",
           "text-color": "#ffffff",
           "hover": true,
-          "background-color-hover": "#000000",
+          "background-color-hover": "#ffffff",
           "text-color-hover": "#f70000",
           "announcement-url": ""
         }

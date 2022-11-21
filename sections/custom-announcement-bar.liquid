@@ -21,6 +21,12 @@
     margin: 0px;
   }
 
+  .custom-announcement-bar:hover{
+    {%  if section.settings.hover %}
+      background-color: {{section.settings.background-color-hover}};
+      {% endif %}
+  }
+
   .custom-announcement-bar>a{
     color: {{section.settings.text-color}};
     text-decoration: none;

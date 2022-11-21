@@ -222,7 +222,9 @@
       "custom-announcement-bar": {
         "type": "custom-announcement-bar",
         "settings": {
-          "announcement_bar_text": "Hello World!"
+          "announcement_bar_text": "Hello World!",
+          "bold-text": true,
+          "font-size": 18
         }
       }
     },

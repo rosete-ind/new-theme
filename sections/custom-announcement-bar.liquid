@@ -24,6 +24,7 @@
   .custom-announcement-bar:hover, .custom-announcement-bar__message:hover{
     {%  if section.settings.hover %}
       background-color: {{section.settings.background-color-hover}};
+      transition: background-color 0.4s;
       {% endif %}
   }
 
@@ -35,6 +36,7 @@
   .custom-announcement-bar>a:hover{
     {% if section.settings.hover %}
     color: {{section.settings.text-color-hover}};
+    transition: background-color 0.4s;
     {% endif %}
   }
 </style>

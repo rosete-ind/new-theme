@@ -222,7 +222,7 @@
       "custom-announcement-bar": {
         "type": "custom-announcement-bar",
         "settings": {
-          "announcement_bar_text": "Teest"
+          "announcement_bar_text": "Hello World!"
         }
       }
     },

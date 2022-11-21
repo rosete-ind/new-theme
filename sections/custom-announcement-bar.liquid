@@ -8,7 +8,7 @@
 <style>
   .custom-announcement-bar{
     text-align: center;
-    padding: {{section.settings.height}} 0px;
+    
   }
 
   .custom-announcement-bar .custom-announcement-bar__message{
@@ -17,7 +17,7 @@
     {% endif %}
     font-size: {{ section.settings.font-size }}px; 
     background-color: {{section.settings.background-color}};
-    
+    padding: {{section.settings.height}} 0px;
   }
 </style>
 
@@ -51,8 +51,8 @@
         "id": "height",
         "default": 6,
         "label": "Height",
-        "min": 1,
-        "max": 10,
+        "min": 0,
+        "max": 100,
         "step": 1,
         "unit": "px"
         

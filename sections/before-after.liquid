@@ -59,7 +59,13 @@
   }
 }
 </style>
-
+<script>
+    $("#slider").on("input change", (e)=>{
+  const sliderPos = e.target.value;
+  // Update the width of the foreground image
+  $('.foreground-img').css('width', `${sliderPos}%`)
+});
+</script>
 {% schema %}
   {
     "name": "Before and After Slider",
@@ -76,11 +82,4 @@
 {% endstylesheet %}
 
 {% javascript %}
-  <script>
-    $("#slider").on("input change", (e)=>{
-  const sliderPos = e.target.value;
-  // Update the width of the foreground image
-  $('.foreground-img').css('width', `${sliderPos}%`)
-});
-</script>
 {% endjavascript %}

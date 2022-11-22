@@ -34,7 +34,7 @@
       "type": "image-comparison",
       "settings": {
         "image-comparison-bg": "#ffffff",
-        "slider-arrows": 100,
+        "slider-arrows": 55,
         "arrow-color": "#ffffff",
         "arrow-bg": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",

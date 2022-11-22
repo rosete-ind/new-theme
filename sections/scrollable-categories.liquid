@@ -1,4 +1,10 @@
   <div class="scrollable-category-container">
+
+    {% for collection in collections %}
+      <div class="card ml">
+        <h4><a href="{{ collection.url }}">{{ collection.title }}</a></h4>
+      </div>
+      {% endfor %}
     <div class="box-scroll">
       <div class="card ml">
         <img src="https://freebiespic.com/images/2018/0821_sneakers-shoes-men-on-the-shelf-thumb.jpg" alt="Text image">
@@ -19,7 +25,15 @@
       </div>
     </div>
   </div>
-  
+
+
+  {% for collection in collections %}
+    {% if collection.products_count > 10 %}
+        <h4>
+            <a href="{{ collection.url }}">{{ collection.title }}</a>
+        </h4>
+    {% endif %}
+{% endfor %}
   <style>
 .scrollable-category-container {
   height: 100%;

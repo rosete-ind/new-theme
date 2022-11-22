@@ -24,7 +24,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -33,7 +33,7 @@
     "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
       "type": "image-comparison",
       "settings": {
-        "image-comparison-bg": "#ffffff",
+        "image-comparison-bg": "#060606",
         "slider-arrows": 66,
         "arrow-color": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",

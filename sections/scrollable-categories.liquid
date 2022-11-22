@@ -19,15 +19,6 @@
       </div>
     </div>
   </div>
-
-
-  {% for collection in collections %}
-    {% if collection.products_count > 10 %}
-        <h4>
-            <a href="{{ collection.url }}">{{ collection.title }}</a>
-        </h4>
-    {% endif %}
-{% endfor %}
   <style>
 .scrollable-category-container {
   height: 100%;

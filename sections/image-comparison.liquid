@@ -52,8 +52,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 100px;
-  height: 100px;
+  width: {{ section.settings.slider-arrows }}px;
+  height: {{ section.settings.slider-arrows }}px;
   color: white;
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
@@ -66,6 +66,16 @@
         "type": "color",
         "id": "image-comparison-bg",
         "label": "Background Color"
+      },
+      {
+        "type": "range",
+        "id": "slider-arrows",
+        "label": "Slider Scale",
+        "default": 60,
+        "min": 20,
+        "max": 100,
+        "step": 1,
+        "unit": "px"
       }
       
     ], "presets": [{

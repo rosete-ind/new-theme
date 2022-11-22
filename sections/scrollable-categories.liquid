@@ -83,9 +83,9 @@ p {
   const mouseWheel = document.querySelector('.box-scroll');
 
 mouseWheel.addEventListener('wheel', function(e) {
-    const race = 15; // How many pixels to scroll
+    const race = 15; 
 
-    if (e.deltaY > 0) // Scroll right
+    if (e.deltaY > 0) 
         mouseWheel.scrollLeft += race;
     else // Scroll left
         mouseWheel.scrollLeft -= race;

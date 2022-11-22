@@ -34,7 +34,7 @@
       "type": "image-comparison",
       "settings": {
         "image-comparison-bg": "#121212",
-        "slider-arrows": 66,
+        "slider-arrows": 100,
         "arrow-color": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
         "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",

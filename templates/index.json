@@ -5,10 +5,9 @@
       "settings": {
         "image-comparison-bg": "#ffffff",
         "slider-arrows": 66,
-        "arrow-color": "#ffffff",
+        "arrow-color": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
-        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
-        "description-header": "Customized Portraits for your family!"
+        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg"
       }
     },
     "rich_text": {

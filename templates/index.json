@@ -4,7 +4,8 @@
       "type": "image-comparison",
       "settings": {
         "image-comparison-bg": "#d40f0f",
-        "slider-arrows": 66
+        "slider-arrows": 66,
+        "arrow-color": "#ffffff"
       }
     },
     "rich_text": {

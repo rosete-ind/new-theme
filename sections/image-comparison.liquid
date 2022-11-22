@@ -54,7 +54,7 @@
   top: 50%;
   width: {{ section.settings.slider-arrows }}px;
   height: {{ section.settings.slider-arrows }}px;
-  color: white;
+  color: {{section.settings.arrow-color}};
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
 </style>
@@ -76,6 +76,11 @@
         "max": 100,
         "step": 1,
         "unit": "px"
+      },
+      {
+        "type": "color",
+        "id": "arrow-color",
+        "label": "Arrow Color"
       }
       
     ], "presets": [{

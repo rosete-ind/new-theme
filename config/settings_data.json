@@ -225,8 +225,7 @@
           "header-logo": "shopify:\/\/shop_images\/stock-logo.jpg",
           "nav-background-color": "#ffffff",
           "color-menu-links": "#010000",
-          "menu": "main-menu",
-          "boder-color": "#f70000"
+          "menu": "main-menu"
         }
       }
     },

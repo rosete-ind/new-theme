@@ -36,6 +36,7 @@
         "image-comparison-bg": "#ffffff",
         "slider-arrows": 100,
         "arrow-color": "#ffffff",
+        "arrow-bg": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
         "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
         "alt-text-1": "A woman",

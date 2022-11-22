@@ -217,6 +217,13 @@
           "text-color-hover": "#f70000",
           "announcement-url": ""
         }
+      },
+      "custom-header": {
+        "type": "custom-header",
+        "settings": {
+          "nav-padding": 0,
+          "nav-background-color": "#000000"
+        }
       }
     },
     "content_for_index": [

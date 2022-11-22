@@ -221,12 +221,11 @@
       "custom-header": {
         "type": "custom-header",
         "settings": {
-          "nav-padding": 20,
+          "nav-padding": 0,
           "header-logo": "shopify:\/\/shop_images\/stock-logo.jpg",
           "nav-background-color": "#ffffff",
           "color-menu-links": "#010000",
-          "menu": "main-menu",
-          "enable-shadow": false
+          "menu": "main-menu"
         }
       }
     },

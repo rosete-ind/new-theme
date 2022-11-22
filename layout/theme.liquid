@@ -249,8 +249,10 @@
     {%- endif -%}
 
     {% section 'custom-announcement-bar' %}
-    
+    {% section 'custom-header' %}
+    {% comment %}
     {% section 'header' %}
+    {% endcomment %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>

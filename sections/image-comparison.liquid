@@ -57,6 +57,14 @@
   color: {{section.settings.arrow-color}};
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
+
+  .image-comparison .slider-icon:hover{
+    {% if section.settings.change-scale-on-hover %}
+  width: {{ section.settings.slider-arrows-scaled }}px;
+  height: {{ section.settings.slider-arrows-scaled }}px;
+      {% endif %}
+  color: {{section.settings.arrow-color}};
+}
 </style>
 {% schema %}
   {

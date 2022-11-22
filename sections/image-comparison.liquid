@@ -13,7 +13,24 @@
     <input type="range" class='slider' min='0' max='100'>
     </div>
 </div>
+<style>
+  .image-comparison .slider{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
 
+
+.image-comparison .slider-icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: {{ section.settings.slider-arrows }}px;
+  height: {{ section.settings.slider-arrows }}px;
+  color: {{section.settings.arrow-color}};
+  transform: translate(-50%, -50%) rotateZ(90deg);
+}
+</style>
 {% schema %}
   {
     "name": "Image Comparison",

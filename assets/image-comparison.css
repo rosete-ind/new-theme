@@ -23,20 +23,3 @@
   top:0;
   width: 50%;
 }
-
-.image-comparison .slider{
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-}
-
-
-.image-comparison>.slider-icon{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: {{ section.settings.slider-arrows }}px;
-  height: {{ section.settings.slider-arrows }}px;
-  color: {{section.settings.arrow-color}};
-  transform: translate(-50%, -50%) rotateZ(90deg);
-}

@@ -69,11 +69,17 @@
         "padding_top": 40,
         "padding_bottom": 100
       }
+    },
+    "a803d95e-f0b1-402a-9cf4-9597c196093d": {
+      "type": "scrollable-categories",
+      "settings": {
+      }
     }
   },
   "order": [
     "rich_text",
     "9c80f30f-d6f5-4508-83eb-155b74eb8d4c",
-    "featured_collection"
+    "featured_collection",
+    "a803d95e-f0b1-402a-9cf4-9597c196093d"
   ]
 }

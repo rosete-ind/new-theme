@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="{{ 'image-comparison.css' | asset_url }}" media="print" onload="this.media='all'">
 <div class="image-comparison">
   <div class="images-container">
     <img class='before-image' src="{{ section.settings.image_first | img_url: '900x900'}}" alt="{{ section.settings.alt-text-1 }}">
@@ -14,52 +14,6 @@
     </div>
 </div>
 
-
-<style>
-
-  .image-comparison{
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-    background-color: {{section.settings.image-comparison-bg}};
-}
-
-.image-comparison img{
-  width: 100%;
-  height:100%;
-  object-fit: cover;
-  object-position: left;
-}
-
-.image-comparison .images-container{
-  position:relative;
-  display:flex;
-}
-
-
-.image-comparison .images-container .before-image{
-  position:absolute;
-  top:0;
-  width: 50%;
-}
-
-.image-comparison .slider{
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-}
-
-
-.image-comparison .slider-icon{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: {{ section.settings.slider-arrows }}px;
-  height: {{ section.settings.slider-arrows }}px;
-  color: {{section.settings.arrow-color}};
-  transform: translate(-50%, -50%) rotateZ(90deg);
-}
-</style>
 {% schema %}
   {
     "name": "Image Comparison",

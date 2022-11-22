@@ -43,33 +43,6 @@
         "alt-text-2": "A smartphone with QR code"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 100
-      }
-    },
     "a803d95e-f0b1-402a-9cf4-9597c196093d": {
       "type": "scrollable-categories",
       "settings": {
@@ -79,7 +52,6 @@
   "order": [
     "rich_text",
     "9c80f30f-d6f5-4508-83eb-155b74eb8d4c",
-    "featured_collection",
     "a803d95e-f0b1-402a-9cf4-9597c196093d"
   ]
 }

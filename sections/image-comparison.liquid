@@ -12,10 +12,20 @@
     <input type="range" class='slider' min='0' max='100'>
     </div>
 </div>
+{% schema %}
+  {
+    "name": "Image Comparison",
+    "settings": [
+      
+    ], "presets": [{
+      "name": "Image Comparison",
+      "category": "Image"
+    }]
+  }
+{% endschema %}
 
-
-<style>
-  .image-comparison{
+{% stylesheet %}
+    .image-comparison{
   max-width: 700px;
   margin: 20px auto;
   border-radius: 20px;
@@ -66,20 +76,6 @@
   color: white;
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
-</style>
-{% schema %}
-  {
-    "name": "Image Comparison",
-    "settings": [
-      
-    ], "presets": [{
-      "name": "Image Comparison",
-      "category": "Image"
-    }]
-  }
-{% endschema %}
-
-{% stylesheet %}
 {% endstylesheet %}
 
 {% javascript %}

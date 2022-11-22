@@ -5,7 +5,9 @@
       "settings": {
         "image-comparison-bg": "#d40f0f",
         "slider-arrows": 66,
-        "arrow-color": "#ffffff"
+        "arrow-color": "#ffffff",
+        "image_first": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg"
       }
     },
     "rich_text": {

@@ -6,7 +6,39 @@
 </div>
 
 <style>
- 
+    .custom-announcement-bar{
+    text-align: center;
+
+  }
+
+  .custom-announcement-bar .custom-announcement-bar__message{
+    {% if section.settings.bold-text %}
+      font-weight: bold;
+    {% endif %}
+    font-size: {{ section.settings.font-size }}px; 
+    background-color: {{section.settings.background-color}};
+    padding: {{section.settings.height}}px 0px;
+    margin: 0px;
+  }
+
+  .custom-announcement-bar:hover, .custom-announcement-bar__message:hover{
+    {%  if section.settings.hover %}
+      background-color: {{section.settings.background-color-hover}};
+      transition: background-color 0.4s;
+      {% endif %}
+  }
+
+  .custom-announcement-bar>a{
+    color: {{section.settings.text-color}};
+    text-decoration: none;
+  }
+
+  .custom-announcement-bar>a:hover{
+    {% if section.settings.hover %}
+    color: {{section.settings.text-color-hover}};
+    transition: background-color 0.4s;
+    {% endif %}
+  }
 </style>
 
 {% schema %}
@@ -85,39 +117,7 @@
 {% endschema %}
 
 {% stylesheet %}
-   .custom-announcement-bar{
-    text-align: center;
 
-  }
-
-  .custom-announcement-bar .custom-announcement-bar__message{
-    {% if section.settings.bold-text %}
-      font-weight: bold;
-    {% endif %}
-    font-size: {{ section.settings.font-size }}px; 
-    background-color: {{section.settings.background-color}};
-    padding: {{section.settings.height}}px 0px;
-    margin: 0px;
-  }
-
-  .custom-announcement-bar:hover, .custom-announcement-bar__message:hover{
-    {%  if section.settings.hover %}
-      background-color: {{section.settings.background-color-hover}};
-      transition: background-color 0.4s;
-      {% endif %}
-  }
-
-  .custom-announcement-bar>a{
-    color: {{section.settings.text-color}};
-    text-decoration: none;
-  }
-
-  .custom-announcement-bar>a:hover{
-    {% if section.settings.hover %}
-    color: {{section.settings.text-color-hover}};
-    transition: background-color 0.4s;
-    {% endif %}
-  }
 {% endstylesheet %}
 
 {% javascript %}

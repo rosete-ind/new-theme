@@ -224,7 +224,8 @@
           "nav-padding": 0,
           "header-logo": "shopify:\/\/shop_images\/stock-logo.jpg",
           "nav-background-color": "#ffffff",
-          "cart-color": "#ffffff"
+          "cart-color": "#ffffff",
+          "color-menu-links": "#000000"
         }
       }
     },

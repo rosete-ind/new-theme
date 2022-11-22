@@ -1,6 +1,5 @@
 
 <div class="image-comparison">
-  <h2 class='image-comparison-h2'>{{ section.settings.description-header }}</h2>
   <div class="images-container">
     <img class='before-image' src="{{ section.settings.image_first | img_url: '900x900'}}" alt="">
     <img class='after-image' src="{{ section.settings.image_second | img_url: '900x900'}}" alt="">
@@ -24,10 +23,6 @@
   justify-content: center;
     background-color: {{section.settings.image-comparison-bg}};
 }
-
-    .image-comparison-h2{
-    text-align: center;
-  }
 
 .image-comparison img{
   width: 100%;
@@ -99,11 +94,6 @@
         "type": "image_picker",
         "id": "image_second",
         "label": "Second Image"
-      },
-      {
-        "type": "text",
-        "id": "description-header",
-        "label": "Add A Description For The Image"
       }
       
     ], "presets": [{

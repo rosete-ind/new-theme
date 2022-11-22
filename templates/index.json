@@ -51,7 +51,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 4,
+        "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
@@ -64,7 +64,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 40,
         "padding_bottom": 100
       }

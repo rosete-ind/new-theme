@@ -70,7 +70,7 @@ nav ul li .menu-link{
 }
 
 nav ul li .menu-link a{
-  color: white;
+  color: {{section.settings.color-menu-links}};
   text-decoration: none;
   position:relative;
 }
@@ -162,6 +162,11 @@ nav ul .catalog-menu:hover .sub-menu-1 ul li:last-child{
         "id": "cart-color",
         "label": "Cart Color",
         "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color-menu-links",
+        "label": "Link Text"
       }
     ],
     "presets": [{

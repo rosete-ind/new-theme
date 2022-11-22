@@ -1,7 +1,7 @@
 <div class='header'>
 <div class="container">
   <nav id='navbar'>
-    <img src="{{ section.settings.header-logo }}" alt="{{ section.settings.header-logo-alt }}" class='logo'>
+    <img src="{{ section.settings.header-logo | img_url: "120x120" }}" alt="{{ section.settings.header-logo-alt }}" class='logo'>
     <ul id='menu'>
       <li><a href="#">HOME</a></li>
       <li><a href="#">ABOUT</a></li>
@@ -145,6 +145,11 @@ nav ul .catalog-menu:hover .sub-menu-1 ul li:last-child{
         "max": 20,
         "step": 1,
         "unit": "px"       
+      },
+      {
+        "type": "image_picker",
+        "id": "header-logo",
+        "label": "Logo"
       },
       {
         "type": "color",

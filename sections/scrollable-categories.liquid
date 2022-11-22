@@ -21,7 +21,50 @@
   </div>
   
   <style>
-    
+    html,body {
+  height: 100%;
+  background-color: ghostwhite;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  overflow: auto;
+  cursor: pointer;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.box-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ml {
+  margin-right: 10px;
+}
+
+img {
+  display: block;
+}
+
+p {
+  padding: 0 10px;
+}
+
   </style>
 {% schema %}
   {

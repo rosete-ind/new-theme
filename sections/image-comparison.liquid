@@ -1,5 +1,6 @@
-<h2>{{ section.settings.description-header }}</h2>
+
 <div class="image-comparison">
+  <h2 class='image-comparison-h2'>{{ section.settings.description-header }}</h2>
   <div class="images-container">
     <img class='before-image' src="{{ section.settings.image_first | img_url: '900x900'}}" alt="">
     <img class='after-image' src="{{ section.settings.image_second | img_url: '900x900'}}" alt="">
@@ -16,6 +17,9 @@
 
 
 <style>
+  .image-comparison-h2{
+    text-align: center;
+  }
   .image-comparison{
   display: flex;
   overflow: hidden;

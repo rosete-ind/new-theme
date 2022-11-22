@@ -33,9 +33,9 @@
     "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
       "type": "image-comparison",
       "settings": {
-        "image-comparison-bg": "#121212",
+        "image-comparison-bg": "#ffffff",
         "slider-arrows": 100,
-        "arrow-color": "#000000",
+        "arrow-color": "#ffffff",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
         "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
         "alt-text-1": "A woman",

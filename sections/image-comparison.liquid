@@ -57,14 +57,6 @@
   color: {{section.settings.arrow-color}};
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
-
-  .image-comparison .slider-icon:hover{
-    {% if section.settings.change-scale-on-hover %}
-  width: {{ section.settings.slider-arrows-scaled }}px;
-  height: {{ section.settings.slider-arrows-scaled }}px;
-      {% endif %}
-  color: {{section.settings.arrow-color}};
-}
 </style>
 {% schema %}
   {
@@ -100,21 +92,6 @@
         "type": "image_picker",
         "id": "image_second",
         "label": "Second Image"
-      },
-      {
-        "type": "checkbox",
-        "id": "change-scale-on-hover",
-        "label": "Change the arrow scale on hover"
-      },
-      {
-        "type": "range",
-        "id": "slider-arrows-scaled",
-        "label": "Slider Scale On Hover",
-        "default": 60,
-        "min": 20,
-        "max": 100,
-        "step": 1,
-        "unit": "px"
       }
       
     ], "presets": [{

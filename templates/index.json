@@ -7,7 +7,9 @@
         "slider-arrows": 66,
         "arrow-color": "#ffffff",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
-        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg"
+        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg",
+        "change-scale-on-hover": true,
+        "slider-arrows-scaled": 100
       }
     },
     "rich_text": {

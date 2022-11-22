@@ -102,32 +102,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 transition: padding 1s;
-}
-
-.sub-menu-1{
-  display: none;
-}
-
-nav ul .catalog-menu:hover .sub-menu-1{
-  display:block;
-  position: absolute;
-  background: dimgray;
-  margin-left: -100px;
-  margin-right: 300px;
-}
-nav ul .catalog-menu:hover .sub-menu-1 ul{
-  display: block;
-}
-nav ul .catalog-menu:hover .sub-menu-1 ul li{
-  padding: 10px;
-  border-bottom: 1px solid white;
-  background: transparent;
-  border-radius:0;
-  text-align: left;
-}
-
-nav ul .catalog-menu:hover .sub-menu-1 ul li:last-child{
-  border-bottom: none;
+z-index: 1;
 }
 </style>
 {% schema %}
@@ -175,15 +150,4 @@ nav ul .catalog-menu:hover .sub-menu-1 ul li:last-child{
 {% endstylesheet %}
 
 {% javascript %}
-const navbar = document.querySelector("#navbar")
-const menu = document.querySelector("#menu")
-
-window.onscroll = function(){
-  if(window.pageYOffset >= menu.offsetTop){
-    navbar.classList.add("sticky")
-  }
-  else{
-    navbar.classList.remove("sticky")
-  }
-}
 {% endjavascript %}

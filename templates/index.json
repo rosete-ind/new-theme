@@ -33,7 +33,7 @@
     "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
       "type": "image-comparison",
       "settings": {
-        "image-comparison-bg": "#060606",
+        "image-comparison-bg": "#121212",
         "slider-arrows": 66,
         "arrow-color": "#000000",
         "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",

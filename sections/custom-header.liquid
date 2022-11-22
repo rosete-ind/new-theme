@@ -6,6 +6,16 @@
       {% for link in section.settings.menu.links %}
           <li class="menu-link">
           <a href="{{ link.url }}">{{ link.title }}</a>
+        {% if link.title == "Catalog" %}
+        <div class='sub-menu-1'>
+          <ul>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+          {% endif %}
       {% endfor %}
     </ul>
     <svg class='cart-icon' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

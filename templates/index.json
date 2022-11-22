@@ -1,15 +1,5 @@
 {
   "sections": {
-    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
-      "type": "image-comparison",
-      "settings": {
-        "image-comparison-bg": "#ffffff",
-        "slider-arrows": 66,
-        "arrow-color": "#000000",
-        "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
-        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg"
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -38,6 +28,16 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
+      "type": "image-comparison",
+      "settings": {
+        "image-comparison-bg": "#ffffff",
+        "slider-arrows": 66,
+        "arrow-color": "#000000",
+        "image_first": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
+        "image_second": "shopify:\/\/shop_images\/iphone-detects-qr-code.jpg"
       }
     },
     "featured_collection": {
@@ -174,8 +174,8 @@
     }
   },
   "order": [
-    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c",
     "rich_text",
+    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c",
     "featured_collection",
     "collage",
     "video",

@@ -226,7 +226,7 @@
           "nav-background-color": "#ffffff",
           "color-menu-links": "#010000",
           "menu": "main-menu",
-          "enable-shadow": true
+          "enable-shadow": false
         }
       }
     },

@@ -3,7 +3,7 @@
   <nav id='navbar'>
     <img src="{{ section.settings.header-logo | img_url: "100x100" }}" alt="{{ section.settings.header-logo-alt }}" class='logo'>
     <ul id='menu'>
-      {% for link in linklists.main-menu.links %}
+      {% for link in section.settings.menu-links %}
           <li class="menu-link">
           <a href="{{ child_link.url }}">{{ child_link.title }}</a>
       {% endfor %}

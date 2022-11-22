@@ -1,10 +1,5 @@
 {
   "sections": {
-    "bc51188e-067d-4ecb-b3e2-4a5402044998": {
-      "type": "before-after",
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -51,6 +46,11 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c": {
+      "type": "image-comparison",
+      "settings": {
       }
     },
     "rich_text": {
@@ -217,8 +217,8 @@
     }
   },
   "order": [
-    "bc51188e-067d-4ecb-b3e2-4a5402044998",
     "image_banner",
+    "9c80f30f-d6f5-4508-83eb-155b74eb8d4c",
     "rich_text",
     "featured_collection",
     "collage",

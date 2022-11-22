@@ -223,9 +223,9 @@
         "settings": {
           "nav-padding": 20,
           "header-logo": "shopify:\/\/shop_images\/stock-logo.jpg",
-          "nav-background-color": "#000000",
-          "cart-color": "#ffffff",
-          "color-menu-links": "#ffffff",
+          "nav-background-color": "#ffffff",
+          "cart-color": "#000000",
+          "color-menu-links": "#000000",
           "menu": "main-menu"
         }
       }

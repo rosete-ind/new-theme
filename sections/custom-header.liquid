@@ -4,7 +4,8 @@
     <img src="{{ section.settings.header-logo | img_url: "100x100" }}" alt="{{ section.settings.header-logo-alt }}" class='logo'>
     <ul id='menu'>
       {% for link in linklists.main-menu.links %}
-      <!-- menu content -->
+          <li class="menu-link">
+          <a href="{{ child_link.url }}">{{ child_link.title }}</a>
       {% endfor %}
       <li><a href="#">HOME</a></li>
       <li><a href="#">ABOUT</a></li>

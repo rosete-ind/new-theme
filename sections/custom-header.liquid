@@ -3,6 +3,9 @@
   <nav id='navbar'>
     <img src="{{ section.settings.header-logo | img_url: "100x100" }}" alt="{{ section.settings.header-logo-alt }}" class='logo'>
     <ul id='menu'>
+      {% for link in linklists.main-menu.links %}
+      <!-- menu content -->
+      {% endfor %}
       <li><a href="#">HOME</a></li>
       <li><a href="#">ABOUT</a></li>
       <li class='catalog-menu'><a href="#">CATALOG</a>
